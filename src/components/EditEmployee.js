@@ -1,7 +1,4 @@
-/**
- * EditEmployee component - form to edit an existing employee
- */
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { employeeAPI } from '../api';
 

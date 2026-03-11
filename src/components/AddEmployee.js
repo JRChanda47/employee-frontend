@@ -1,7 +1,4 @@
-/**
- * AddEmployee component - form to add a new employee
- */
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { employeeAPI } from '../api';
 

@@ -1,6 +1,3 @@
-/**
- * API configuration and functions for Employee Management System
- */
 import axios from 'axios';
 
 // Create axios instance with base URL
