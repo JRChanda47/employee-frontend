@@ -1,11 +1,7 @@
-/**
- * Main App component with routing configuration
- */
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import EmployeeList from './components/EmployeeList';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import AddEmployee from './components/AddEmployee';
 import EditEmployee from './components/EditEmployee';
+import EmployeeList from './components/EmployeeList';
 import './styles.css';
 
 function App() {
